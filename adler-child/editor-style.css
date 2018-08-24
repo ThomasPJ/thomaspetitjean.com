@@ -1,0 +1,16 @@
+.site-main .entry-wrapper .entry-header h2,
+.content-area .site-main .posts-navigation .entry-header h2
+{
+    z-index: 5;
+}
+.post .entry-wrapper .entry-header h2,
+.post .content-area .site-main .posts-navigation .entry-header h2,
+.content-area .site-main .post .posts-navigation .entry-header h2
+{
+    position: relative;
+
+    margin-bottom: 50px;
+}
+.aligncenter, .wp-caption.aligncenter {
+  margin-left: 0;
+}

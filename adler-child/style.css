@@ -1,0 +1,57 @@
+/*
+ Theme Name:   Adler Child
+ Theme URI:    http://pixelgrade.com/demos/adler/
+ Description:  Adler Child Theme
+ Author:       PixelGrade
+ Author URI:   http://pixelgrade.com
+ Template:     adler
+ Version:      1.1.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain: adler
+ Tags: black, blue, green, white, light, one-column, fluid-layout, responsive-layout, custom-background, custom-colors, custom-menu, editor-style, featured-image-header, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+#content {
+	padding: 0 15px;
+}
+ul li {
+	list-style-type: disc;
+	line-height: 2;
+  margin: 0 0 5px 0;
+}
+.post-image {
+	border: 3px solid #ddd;
+}
+.tags-links {
+	text-align: center;
+	padding: 50px 0 0 0;
+	margin: 0 0 0 10px;
+}
+.edit-link {
+	margin: 0 0 0 10px;
+}
+.single .post .entry-wrapper .entry-footer .tags-links, .edit-link>a {
+	float: none;
+}
+.site-main .entry-wrapper .entry-header h2,
+.content-area .site-main .posts-navigation .entry-header h2
+{
+    z-index: 5;
+}
+.post .entry-wrapper .entry-header h2,
+.post .content-area .site-main .posts-navigation .entry-header h2,
+.content-area .site-main .post .posts-navigation .entry-header h2
+{
+    position: relative;
+    margin-bottom: 50px;
+}
+h2.hero__title {
+	font-weight: bold;
+	text-align: center;
+	color: #0e364f;
+	font-size: 60px;
+}
+.aligncenter, .wp-caption.aligncenter {
+	margin-left: 0;
+}
